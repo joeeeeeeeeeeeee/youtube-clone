@@ -1,0 +1,236 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin-top: 56px; /* 'fixed' navbar adjustment */
+}
+
+.page_container{
+  width: 1100px;
+  margin: 0 auto;
+}
+/* text */
+body{
+  font-family: Roboto, Arial, sans-serif;
+  color:  rgb(17,17,17);
+}
+
+h1 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.main h1{
+  padding-top: 12px
+}
+
+
+.warning{
+  color: red;
+  font-size: 14px;
+}
+
+.secondary{
+  font-weight: normal;
+  color:  rgba(17,17,17,0.4);
+}
+
+
+/* navigation */
+
+nav {
+  overflow: hidden;
+  background-color: white;
+}
+
+nav > * {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
+  height: 56px;
+
+  display: block;
+}
+
+nav .right{
+  float: right;
+}
+
+nav .text{
+  line-height: 24px
+}
+
+
+/* Make text for icons closer*/
+.icon_text{
+  padding-left: 0;
+}
+
+.icon_text + .right{
+  padding-right: 8px;
+}
+
+.top_nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.top_nav, .video_nav{
+  border-bottom: 1px solid rgba(17,17,17,0.1);
+}
+
+.video_nav a:first-child{
+  font-size: 18px;
+  color:  rgba(17,17,17,0.6);
+}
+
+.video_nav{
+  font-size: 13px;
+}
+.video_nav .material-icons {
+ font-size: 21px; 
+}
+
+
+.video_nav .first_in_nav, .comment_nav .first_in_nav, .comment_nav_head .first_in_nav {
+  padding-left: 0;
+}
+
+.video_nav .last_in_nav{
+  padding-right: 0;
+}
+
+.video_nav{
+  font-size: 13px;
+}
+.video_nav .material-icons {
+ font-size: 21px; 
+}
+
+.comment_nav{
+  font-size: 13px;
+}
+.comment_nav .material-icons {
+ font-size: 18px; 
+}
+
+
+/* card */
+.card{
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 21px;
+  overflow: hidden;
+
+}
+
+.card_main{
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(17,17,17,0.1);
+}
+
+.card .user{
+  float:  left;
+  height:  48px;
+  width: 48px;
+  border-radius: 50%;
+}
+.card .content{
+  float: left;
+  padding-left: 20px;
+  width:  592px;
+}
+
+h2{
+  line-height: 24px;
+}
+
+h3{
+  font-weight: 550;
+  line-height: 16px;
+}
+h4{
+  line-height: 16px;
+}
+.card p{
+  margin-top:4px;
+}
+
+.card_main p{
+  margin-top: 20px;
+}
+.card .show_more{
+  margin-top: 0;
+  font-size: 13px;
+  font-weight: bold;
+  color:  rgba(17,17,17,0.4);
+}
+
+
+section {
+
+  float:left;
+
+  width: 672px;
+  height: 7000px;
+
+  padding: 28px 16px;
+}
+
+aside {
+
+  float:left;
+
+  width: 428px;
+  height: 7000px;
+
+  padding-top: 28px;
+  padding-left: 10px;
+  padding-right: 16px;
+
+}
+
+aside h1{
+  font-size: 16px;
+}
+
+aside h2{
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+aside .vid_card{
+  padding-top: 8px;
+  overflow: hidden;
+}
+
+aside .vid_card_main{
+  padding-bottom: 16px;
+  margin-bottom:  8px;
+  border-bottom: 1px solid rgba(17,17,17,0.1);
+}
+
+aside .vid_card_img{
+  float: left;
+}
+
+aside .vid_card_text{
+  float: left;
+  width: 234px;
+  padding: 0 8px;
+}
+
+aside p{
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+
